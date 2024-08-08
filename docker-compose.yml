@@ -1,0 +1,7 @@
+services:
+
+  web-profile:
+    build: ./Docker-file
+    ports:
+      - 4444:80
+      
